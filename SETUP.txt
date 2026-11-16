@@ -1,0 +1,15 @@
+FITGENIUS AI - QUICK START (WINDOWS)
+
+1. Install Python and Git.
+2. Open this folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Run:
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+5. Copy .streamlit\secrets.example.toml to .streamlit\secrets.toml
+6. Replace the placeholder with your Gemini API key.
+7. Run:
+   streamlit run app.py
+
+Do not upload .streamlit/secrets.toml to GitHub.
